@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-df = pd.read_csv("Nassau Candy Distributor.csv")
+df = pd.read_csv("nassau_candy.csv")
 
 st.sidebar.title("📌 Project Overview")
 st.markdown("### 👩‍💻 Created by Priyanka")
