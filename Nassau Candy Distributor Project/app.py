@@ -1,10 +1,7 @@
-import os
+import streamlit as st
 import pandas as pd
-
-BASE_DIR = os.path.dirname(__file__)
-file_path = os.path.join(BASE_DIR, "nassau_candy.csv")
-
-df = pd.read_csv(file_path)
+import matplotlib.pyplot as plt
+df = pd.read_csv("nassau_candy.csv")
 
 st.sidebar.title("📌 Project Overview")
 st.markdown("### 👩‍💻 Created by Priyanka")
