@@ -1,3 +1,8 @@
+import os
+import streamlit as st
+
+st.write(os.listdir())
+
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
