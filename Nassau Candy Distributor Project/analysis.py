@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the dataset
-df = pd.read_csv("Nassau Candy Distributor.csv")
+df = pd.read_csv("nassau_candy.csv")
 
 # Show first 5 rows
 print("FIRST 5 ROWS")
