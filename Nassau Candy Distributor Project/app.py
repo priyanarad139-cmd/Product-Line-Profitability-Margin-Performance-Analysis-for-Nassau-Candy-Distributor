@@ -60,7 +60,7 @@ st.markdown(
 )
 st.divider()
 # Read the dataset
-df = pd.read_csv("Nassau Candy Distributor.csv")
+df = pd.read_csv("nassau_candy.csv")
 
 # Summary Boxes
 
