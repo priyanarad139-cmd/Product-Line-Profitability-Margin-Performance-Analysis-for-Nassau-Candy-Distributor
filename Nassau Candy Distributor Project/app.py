@@ -3,7 +3,7 @@ import pandas as pd
 import os
 import matplotlib.pyplot as plt
 st.write(os.listdir())
-df = pd.read_csv("../nassau_candy.csv", on_bad_lines="skip", engine="python")
+df = pd.read_csv("nassau_candy.csv", on_bad_lines="skip", engine="python")
 
 st.sidebar.title("📌 Project Overview")
 st.markdown("### 👩‍💻 Created by Priyanka")
